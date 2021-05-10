@@ -24,8 +24,8 @@ h2 {
 }
 
 #header {
-    /* height: 80px; */
     box-shadow: 1px 0px 5px -3px;
+    padding: 10px 0px;
 }
 
 #header .prv {
@@ -102,7 +102,7 @@ h2 {
 
 #hero-section .hero-content span {}
 
-#hero-section .hero-content span img {
+.video-icon img {
     margin-left: 35px;
     height: 60px;
     transition: transform .2s ease-in-out;
@@ -115,4 +115,115 @@ h2 {
 
 #hero-section .hero-img img {
     height: 332px;
+}
+
+#row2 {
+    height: 400px;
+    margin-top: 30px;
+    background-image: url(../images/bg1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#row2 .col-md-6 .row2-title {
+    margin-top: 40px;
+}
+
+#row2 .col-md-6 .row2-title h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#row2 .col-md-6 .row2-title p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #383838;
+}
+
+#row2 .col-md-6 .row2-img {
+    height: 300px;
+    width: 100%;
+}
+
+#row3 {
+    /*! margin: 30px 30px; */
+    padding: 10px 0px;
+    background-image: url(../images/bg2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 521px;
+}
+
+#row3 .row3-title {
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#row3 .row3-title h2 {
+    /*! width: 30%; */
+    /*! margin: 0 auto; */
+    font-weight: 600;
+    font-size: 37px;
+}
+
+#row3 .row3-title p {
+    color: #383838;
+    font-size: 15px;
+}
+
+#row3 .services {
+    width: 27%;
+    float: left;
+    margin: 30px auto;
+    box-shadow: 0px 4px 6px -1px #ddd;
+    padding: 20px 5px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#row3 .services h3 {
+    text-align: center;
+    /*! line-height: 40px; */
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+#row3 .services p {
+    font-size: 12px;
+    width: 70%;
+    margin: 6px auto;
+    text-align: center;
+}
+
+#row3 .services img {
+    width: 150px;
+    margin: 0px 80px;
+}
+
+#row3 .services .overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    border-radius: 10px;
+    padding: 65px 0px;
+    display: none;
+    transition: 1s;
+}
+
+#row3 .services:hover .overlay {
+    display: block;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#row3 .services .overlay h3 {
+    color: #eee;
+}
+
+#row3 .services .overlay p {
+    color: #eee;
 }
