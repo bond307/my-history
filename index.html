@@ -2,15 +2,18 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My History || Experience</title>
+    <title>My History</title>
     <!------- bootstrap css-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <!----- syle.css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
 
     <!------ font-awasem------>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -34,20 +37,18 @@
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#row3">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link prv" href="#">Previous Work</a>
+                            <a class="nav-link prv" href="#row5">Previous Work</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Members</a>
-                        </li>
+                    
 
                         <li class="nav-item cnt">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#row6">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -62,15 +63,21 @@
     <section id="hero-section">
         <div class="container">
             <div class="hero-content">
+                <img src="images/icon/add.png" class="add1" alt="">
+
                 <h3>IT SOFT SOLUTION</h3>
                 <h1>All in one</h1>
                 <h1>IT Solution Platform </h1>
                 <p>You will get world class service from now on. Our team members are skilled and experienced.</p>
                 <button class="primary-btn">CONTACT US</button> <span class="video-icon"> <img src="images/play-icon.png" alt="">
                 </span>
+
+                <img src="images/icon/bleach.png" class="bleach1" alt="">
+                <img src="images/icon/rectangle.png" class="rectangle1" alt="">
             </div>
 
             <div class="hero-img">
+               
                 <img src="images/here.png">
             </div>
         </div>
@@ -79,11 +86,11 @@
     <!----- end hero sectoin ------>
 
 
-
+<div id="about">
     <section id="skill">
         <div class="container">
             <div class="row">
-
+               
                 <div class="col-md-8">
                     <h2>Let's see, in which <b>programming language</b> and <b>CMS</b> am I proficient and experienced? </h2>
                 </div>
@@ -112,9 +119,21 @@
             </div>
         </div>
     </section>
+    <section id="row4"> 
+        <div class="overly">
+            <div class="container">
+                <h2>Some information </h2><br>
+                <iframe  class="about-me-video" src="https://www.youtube.com/embed/9SZw0Is78Ss" title="What i do? What client say about me? My previous work. " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe><br><br>
+                    <button class="primary-btn">Let's Check</button>
+    
+            </div>
+        </div>
+    </section>
 
+</div>
 
-    <section id="row3">
+    <br><br><br><section id="row3">
         <div class="container">
             <div class="row3-title">
                 <h2>WHAT YOU GET ?</h2>
@@ -122,6 +141,7 @@
             </div>
 
             <div class="row">
+               
                 <div class="services" style="background-color: #E8FFF6;">
                         <img src="images/s1.png" alt="">
                         <h3>Web Design</h3>
@@ -190,29 +210,21 @@
                     Here are many variations of passages of the have suffered in some </p>  
             </div>
     </div>
+    <img src="images/icon/rectangle.png" class="rectangle1" alt="">
             </div>
         </div>
     </section>
 
 
 
-    <section id="row4"> 
-        <div class="overly">
-            <div class="container">
-                <h2>Some information </h2><br>
-                <iframe width="700" height="250" src="https://www.youtube.com/embed/9SZw0Is78Ss" title="What i do? What client say about me? My previous work. " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe><br><br>
-                    <button class="primary-btn">Let's Check</button>
-    
-            </div>
-        </div>
-    </section>
-
+   
 
     <section id="row5">
     <div class="container">
         <div class="title">
+            <img src="images/icon/bleach.png" class="bleach1" alt="">
             <h2>OUR PREVIOUS WORK’S</h2>
+            
             <p>There are many variations of passages of the have suffered in some form.. There are many variations
                  of passages of the have suffered in some form. </p>
         </div>
@@ -237,7 +249,9 @@
             <div class="col-md-5">
                 <img style="float:right" src="images/wortdprtes.png" alt="">
             </div>
+            
         </div>
+        
         <div class="row">
             <div class="col-md-5">
                 <img src="images/ecommerce.png" alt="">
@@ -249,6 +263,7 @@
                 <button class="primary-btn">Let's Check</button>    
             </div>
         </div>
+        <img src="images/icon/rectangle.png" class="rectangle1" alt="">
     </div>
     </section>
 
@@ -361,6 +376,31 @@
 
         </div>
     </section>
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </body>
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
