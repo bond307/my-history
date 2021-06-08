@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Portfolio || Wordpress and Woo-commerce || My History</title>
+    <!------- bootstrap css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!----- syle.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!------ font-awasem------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+    <!----- header ----->
+    <header id="header">
+        <div class="container">
+
+            <nav class="navbar navbar-expand-md ">
+                <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <span class="fa fa-bars"></span>
+    </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#row3">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link prv" href="#row5">Previous Work</a>
+                        </li>
+
+
+                        <li class="nav-item cnt">
+                            <a class="nav-link" href="#row6">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <!----- end header =-------->
+
+
+    <section id="header-bg" style="background-image: url(images/ecommerce-banner.jpg);">
+
+        <div class="overly">
+            <h2>Wordpress, eCommerce, Woo-commerce</h2>
+        </div>
+
+    </section>
+
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="ecommerce-most-work">
+                <div class="row">
+                    <div class="ecommerce-title">
+                        <h2>I have worked on this theme the most.</h2>
+                        <p>I have worked on these themes most of the time. I have created many websites.</p>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="most-theme-ecommerce">
+                            <img src="images/woodmart.jpg" alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="most-theme-ecommerce">
+                            <img src="images/avada.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="most-theme-ecommerce">
+                            <img src="images/electro.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="most-theme-ecommerce">
+                            <img src="images/media.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="most-theme-ecommerce">
+                            <img src="images/baslo.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="most-theme-ecommerce">
+                            <img src="images/elessi-1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="most-theme-ecommerce">
+                            <img src="images/marketo.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="most-theme-ecommerce">
+                            <img src="images/karto.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <p class="project-complite-text">I have completed 30+ eCommerce website</p>
+
+
+
+
+    <section id="footer">
+        <div class="container">
+            <ul class="footer-socila-icon">
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-behance"></i></a></li>
+                <li><a href=""><i class="fa fa-github"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube"></i></a></li>
+            </ul>
+
+            <ul class="footer-link">
+                <li><a href="">Go Top</a></li>
+                <li><a href="">Previous Work</a></li>
+                <li><a href="">Hire</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Trams & Conditions</a></li>
+            </ul>
+
+            <div class="footer-divider"></div>
+
+            <p>Design & Development By : Me (Nayon Talukder)</p>
+
+        </div>
+    </section>
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>
