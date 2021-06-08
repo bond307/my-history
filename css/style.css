@@ -4,6 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 a {
     color: #000
@@ -13,6 +14,11 @@ html {
     scroll-behavior: smooth;
 }
 
+=======
+html {
+    scroll-behavior: smooth;
+  }
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
 body {
     font-family: "Montserrat", sans-serif;
 }
@@ -21,12 +27,19 @@ h1,
 h2 {
     font-family: "Itim", sans-serif;
 }
+<<<<<<< HEAD
 
 .about-me-video {
     width: 600px;
     height: 400px;
 }
 
+=======
+.about-me-video{
+    width:600px;
+    height:400px;
+}
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
 #myBtn {
     display: none;
     position: fixed;
@@ -41,12 +54,20 @@ h2 {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
+<<<<<<< HEAD
 }
 
 #myBtn:hover {
     background-color: #555;
 }
 
+=======
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
 .primary-btn {
     background-image: linear-gradient(to right, #74CD70, #47C894);
     border: 0px;
@@ -182,6 +203,10 @@ h2 {
 #row3 {
     /*! margin: 30px 30px; */
     padding: 10px 0px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
 }
 
 #row3 .row3-title {
@@ -256,16 +281,27 @@ h2 {
     color: #eee;
 }
 
+<<<<<<< HEAD
 #row4 {
+=======
+#row4{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     background-image: url(../images/about2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+<<<<<<< HEAD
     height: 610px;
     background-attachment: fixed;
 }
 
 #row4 .overly {
+=======
+    height: 500px;
+    background-attachment: fixed;
+}
+#row4 .overly{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -273,6 +309,7 @@ h2 {
     text-align: center;
     color: #fff;
 }
+<<<<<<< HEAD
 
 #row4 h2 {
     font-size: 30px;
@@ -292,11 +329,28 @@ h2 {
 #row5 .container {}
 
 #row5 .container .row {
+=======
+#row4 h2{
+    font-size: 30px;
+}
+#row4 p{
+    font-size: 13px;
+}
+#row4 button{}
+
+#row5{
+    margin: 30px auto;
+    padding: 20px 0px;
+}
+#row5 .container{}
+#row5 .container .row{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     padding: 30px 23px;
     box-shadow: 0px 1px 4px -2px green;
     border-radius: 10px;
     margin-top: 20px;
 }
+<<<<<<< HEAD
 
 #row5 .container .row:hover {
     transition: 0.8s;
@@ -306,10 +360,20 @@ h2 {
 }
 
 #row5 .title {
+=======
+#row5 .container .row:hover{
+    transition: 0.8s;
+    box-shadow: 0px 2px 10px 2px green;
+    cursor:all-scroll;
+    transform: translate(2px, -4px);
+}
+#row5 .title{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     width: 50%;
     margin: 0 auto;
     text-align: center;
 }
+<<<<<<< HEAD
 
 #row5 .title h2 {
     font-weight: bold;
@@ -324,10 +388,23 @@ h2 {
 }
 
 #row5 .col-md-7 h2 {
+=======
+#row5 .title h2{
+    font-weight: bold;
+}
+#row5 .title p{
+    font-size: 15px;
+}
+#row5 .col-md-5 img {
+    width: 250px;
+}
+#row5 .col-md-7 h2{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     text-align: right;
     font-size: 25px;
     font-weight: bold;
 }
+<<<<<<< HEAD
 
 #row5 .col-md-7 p {
     text-align: right;
@@ -344,10 +421,28 @@ h2 {
 }
 
 #row6 .title {
+=======
+#row5 .col-md-7 p{
+    text-align: right;
+    font-size: 12px;
+}
+#row5 .col-md-7 button{
+    text-align: right;
+    float: right;
+    
+}
+
+
+#row6 {
+    margin: 60px auto;
+}
+#row6 .title{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     text-align: center;
     width: 50%;
     margin: 50px auto;
 }
+<<<<<<< HEAD
 
 #row6 .title h2 {
     font-weight: 600;
@@ -359,11 +454,22 @@ h2 {
 }
 
 #row6 .col-md-6 .contact-form {
+=======
+#row6 .title h2{
+    font-weight: 600;
+    font-size: 35px;
+}
+#row6 .title p{
+    font-size: 15px;
+}
+#row6 .col-md-6 .contact-form{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     padding: 40px 25px;
     border: 2px solid #ddd;
     box-shadow: 0px -1px 6px #DDD;
     border-radius: 5px;
 }
+<<<<<<< HEAD
 
 #row6 .col-md-6 .contact-form .form-group {}
 
@@ -382,11 +488,27 @@ h2 {
 }
 
 #row6 .col-md-6 p {
+=======
+#row6 .col-md-6 .contact-form .form-group{}
+#row6 .col-md-6 .contact-form .form-group label b{
+    font-size: 13px;
+}
+#row6 .col-md-6 .contact-form .form-group input{
+    border-radius: 0;
+    font-size: 13px;
+}
+#row6 .col-md-6 img{
+    width: 95%;
+    margin: 0 15px;
+}
+#row6 .col-md-6 p{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     text-align: center;
     width: 80%;
     margin: 23px auto;
     font-size: 13px;
 }
+<<<<<<< HEAD
 
 #row6 .col-md-6 .contact-social-link {
     width: 60%;
@@ -394,6 +516,13 @@ h2 {
 }
 
 #row6 .col-md-6 .contact-social-link li {
+=======
+#row6 .col-md-6 .contact-social-link{
+    width: 60%;
+    margin: 0 auto;
+}
+#row6 .col-md-6 .contact-social-link li{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     float: left;
     list-style: none;
     margin-left: 20px;
@@ -403,8 +532,12 @@ h2 {
     text-align: center;
     border-radius: 100%;
 }
+<<<<<<< HEAD
 
 #row6 .col-md-6 .contact-social-link li a {
+=======
+#row6 .col-md-6 .contact-social-link li a{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     /* width: 61px; */
     /* height: 30px; */
     /* background: blue; */
@@ -413,14 +546,19 @@ h2 {
     /* border-radius: 100%; */
     color: #fff;
 }
+<<<<<<< HEAD
 
 #row6 .col-md-6 .contact-social-link li:hover {
+=======
+#row6 .col-md-6 .contact-social-link li:hover{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     background-image: linear-gradient(to right, #74CD70, #47C894);
     color: #FFF;
     transform: scale(1.1);
     transition: transform 0.2s ease-in;
     transition-delay: 0.1s;
 }
+<<<<<<< HEAD
 
 #row6 .col-md-6 .contact-social-link li:hover a i {
     color: #FFF;
@@ -445,12 +583,37 @@ h2 {
 }
 
 #footer .footer-socila-icon {
+=======
+#row6 .col-md-6 .contact-social-link li:hover a i{
+    color: #FFF;
+} 
+
+#skill{
+    background-image: linear-gradient(to right, #74CD70, #307C5E);
+    padding: 27px 0px;
+}
+#skill .col-md-8 h2{
+    /* padding:  0px; */
+}
+#skill .col-md-2{
+    padding: 20px 0px;
+}
+#footer{
+    background: black;
+    padding: 50px 0px;
+}
+#footer .footer-socila-icon{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     width: 38%;
     margin: 0 auto;
     overflow: hidden;
 }
+<<<<<<< HEAD
 
 #footer .footer-socila-icon li {
+=======
+#footer .footer-socila-icon li{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     float: left;
     margin: 0px 10px;
     list-style: none;
@@ -461,46 +624,73 @@ h2 {
     border-radius: 100%;
     border: 3px solid green;
 }
+<<<<<<< HEAD
 
 #footer .footer-socila-icon li a {
+=======
+#footer .footer-socila-icon li a{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     font-size: 28px;
     text-align: center;
     color: green;
 }
+<<<<<<< HEAD
 
 #footer .footer-socila-icon li a i {}
 
 #footer .footer-link {
+=======
+#footer .footer-socila-icon li a i{}
+
+#footer .footer-link{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     /* float: left; */
     width: 55%;
     margin: 0 auto;
     overflow: hidden;
 }
+<<<<<<< HEAD
 
 #footer .footer-link li {
+=======
+#footer .footer-link li{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     float: left;
     margin: 20px 10px;
     list-style: none;
 }
+<<<<<<< HEAD
 
 #footer .footer-link li a {
+=======
+#footer .footer-link li a{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     color: #f1f1f1;
     font-weight: 300;
 }
 
+<<<<<<< HEAD
 #footer .footer-divider {
+=======
+#footer .footer-divider{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     width: 80%;
     height: 2px;
     background: #fff;
     margin: 0 auto;
 }
+<<<<<<< HEAD
 
 #footer p {
+=======
+#footer p{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     text-align: center;
     padding-top: 20px;
     color: #333;
 }
 
+<<<<<<< HEAD
 .hero-icon {
     position: absolute;
 }
@@ -510,6 +700,16 @@ h2 {
 }
 
 .add1 {
+=======
+
+.hero-icon{
+    position: absolute;
+}
+.hero-icon img{
+    height:20px;
+}
+ .add1{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     left: 34%;
     transform: rotate(360deg);
     position: absolute;
@@ -517,15 +717,23 @@ h2 {
     transition: 2s;
 }
 
+<<<<<<< HEAD
 .bleach1 {
+=======
+.bleach1{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     left: 34%;
     transform: rotate(360deg);
     position: absolute;
     animation: rotate2 5s infinite;
     transition: 2s;
 }
+<<<<<<< HEAD
 
 .rectangle1 {
+=======
+.rectangle1{
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     right: 0%;
     transform: rotate(360deg);
     position: absolute;
@@ -534,6 +742,7 @@ h2 {
     height: 30px;
 }
 
+<<<<<<< HEAD
 #header-bg {
     background-image: url(../images/webdesign_banner.png);
     background-size: cover;
@@ -577,24 +786,41 @@ h2 {
 #portfolio .portfolio-item .live {}
 
 #portfolio .portfolio-item .live a {}
+=======
+
+
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
 
 #hero-section .hero-img img {
     position: relative;
     animation: mymove 5s infinite;
     transition: 2s;
+<<<<<<< HEAD
 }
 
+=======
+    
+}
+
+
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
 #row2 .col-md-6 .row2-img {
     position: relative;
     animation: mymove 5s infinite;
     transition: 2s;
 }
 
+<<<<<<< HEAD
 #row6 .col-md-6 img {
+=======
+#row6 .col-md-6 img{
+
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     position: relative;
     animation: mymove 5s infinite;
     transition: 2s;
 }
+<<<<<<< HEAD
 
 button:hover {
     transform: scale(1.1);
@@ -786,3 +1012,73 @@ div:hover {
     transition: 0.3s;
     cursor: pointer;
 }
+=======
+button:hover{
+    transform: scale(1.1);
+    
+    transition: 1s;
+}
+div:hover {
+    animation-play-state: paused;
+  }
+  
+  @keyframes mymove {
+
+    10%{
+      transform: translate(-1px, -1px );
+   
+    }
+
+    50%{
+        transform: translate(-6px, -7px );
+       
+    }
+   
+   100%{
+        transform: translate(1px, 1px );
+        
+    }
+  
+   
+  }
+
+
+  @keyframes rotate {
+
+    10%{
+      transform: rotate(90deg);
+      transform: translate(-2px, -3px );
+    }
+
+    50%{
+        transform: rotate(180deg);
+       
+    }
+   
+   100%{
+        transform: rotate(360deg);
+        
+    }
+  
+   
+  }
+  @keyframes rotate2 {
+
+    10%{
+      transform: rotate(-180deg);
+      transform: translate(2px, -3px );
+    }
+
+    50%{
+        transform: rotate(-90deg);
+       
+    }
+   
+   100%{
+        transform: rotate(-360deg);
+        
+    }
+  
+   
+  }
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29

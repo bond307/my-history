@@ -5,18 +5,33 @@
     }
     #hero-section .hero-content {
         width: 100%;
+<<<<<<< HEAD
         margin-top: 0px;
     }
+=======
+        margin-top: 0px;    }
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     #hero-section .hero-img img {
         display: none;
     }
     #row4 .overly {
         padding: 30px 10px;
+<<<<<<< HEAD
     }
     #row3 .services {
         width: 100%;
     }
     #hero-section .hero-content h1 {
+=======
+       
+    }
+    #row3 .services {
+        width: 100%;
+       
+    }
+    #hero-section .hero-content h1 {
+       
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
         font-size: 32px;
     }
     #hero-section .hero-content h3 {
@@ -91,7 +106,13 @@
         margin: 14px 48px;
     }
     #row6 .col-md-6 .contact-social-link li {
+<<<<<<< HEAD
         background: green;
+=======
+      
+        background: green;
+        
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
         margin-top: 12px;
     }
     #footer .footer-socila-icon li {
@@ -101,6 +122,10 @@
     }
     #footer .footer-socila-icon li a {
         font-size: 13px;
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
     }
     #footer .footer-socila-icon {
         width: 76%;
@@ -113,7 +138,11 @@
         font-weight: 300;
         font-size: 10px;
     }
+<<<<<<< HEAD
     #footer .footer-socila-icon li {
+=======
+    #footer .footer-socila-icon li { 
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
         margin: 0px 2px;
     }
     #footer .footer-link li a {
@@ -122,6 +151,7 @@
         font-size: 9px;
         text-decoration: underline;
     }
+<<<<<<< HEAD
     #plugin .single-pluign {
         width: 100%;
         border: 2px solid #fff;
@@ -184,3 +214,11 @@
         height: 400px;
     }
 }
+=======
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 426px) {}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {}
+>>>>>>> 58a39601eabe4cad28111cf73c52e8d81b807f29
